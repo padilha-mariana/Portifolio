@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/* reset do css - pesquisar sobre */
+
+h1 { 
+    font-weight: 300;
+    font-family: 'Montserrat';
+    } 
+
+h3,li {
+    font-family: 'Montserrat';
+    color: lightslategray;
+}    
+
+p {
+    font-family: 'Merriweather';
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.sobre-mim img {
+    width: 100px;
+    border-radius: 50px;
+    
+}
+
+.sobre-mim li {
+    padding-top: 10px;
+    cursor: pointer;
+    display: flex;
+    transition: 0.4s;
+}
+
+.sobre-mim p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sobre-mim li:hover{
+    color: lightgray;
+    
+}
+
+.sobre-mim ul {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
