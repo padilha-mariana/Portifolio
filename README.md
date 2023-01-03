@@ -1,2 +1,1 @@
-Portifólio utilizando HTML e CSS
-Em desenvolvimento
+Portifólio pessoal, pretendo seguir com o projeto utilizando HTML e CSS.
